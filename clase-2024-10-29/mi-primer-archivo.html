@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scaler=1.0">
+    <title>Mi primer sitio web</title>
+</head>
+
+<body>
+    <h1>Mi primera pagina web</h1>
+    <p>Esto representa un parrafo de texto, Tiempo que falta para navidad</p>
+    <h2>A Description List</h2>
+    <dl>
+    <dt>Octubre</dt>
+    <dd>-Mes 10 del año</dd>
+    <dt>Noviembre</dt>
+    <dd>-Mes 11 del año</dd>
+    <dt>Dicembre</dt>
+    <dd>-Mes 12 del año</dd>
+    <h2>An unordered HTML list</h2>
+    <ul>
+        <li>Octubre</li>
+        <li>Noviembre</li>
+        <li>Diciembre</li>
+    </ul>
+    <h2>HTML Image</h2>
+    <img src="https://www.solofondos.com/wp-content/uploads/2021/08/1.jpg"
+    alt="Imagen de navidad"
+    title="Navidad"
+    <button id="counter">Contador</button><label> Cuenta: </label><label id="count">55 dias</label>
+
+</body>
+</html>
+
+<script>
+    const button = document.getElementById("counter");
+    let count = 55;
+    button.addEventListener("click", () => {
+        count++;
+        document.getElementById("count").innerHTML = count;
+    });
+</script>
