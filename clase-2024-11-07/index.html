@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi practica de html semantico</title>
+</head>
+
+<body>
+    <!-- Header es la seccion de la pagina y generalmente incluye informacion introductoria, como el titulo y el menu de navegacion -->
+    <header>
+        <!-- Titulo de navegación -->
+        <h1>Bienvenidos a mi sitio web</h1>
+        <!-- Menu de navegación -->
+        <nav>
+            <ul>
+                <li>Sobre mi</li>
+                <li>Intereses</li>
+                <li>Enlaces</li>
+            </ul>
+        </nav>
+    </header>
+<!-- main es la seccion principal que contiene el contenido central en la pagina. Se recomienda usar main solo una vez en cada pagina para indicar la parte mas importante del documento -->
+ <main>
+    <section>
+        <h2>sobre mi</h2>
+        <p>Soy Roxana y estoy aprendiendo desarrollo web y etiquetas sematicas en html</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt ducimus rem non itaque perspiciatis, libero animi consectetur consequuntur eligendi adipisci vel quis accusamus quo alias quam at excepturi possimus saepe.</p>
+    </section>
+    <section>
+        <h2>Intereses</h2>
+        <ul>
+            <li>Programación</li>
+            <li>Piano</li>
+            <li>Perros</li>
+        </ul>
+        <!-- figure agrupa contenido visual como imagenes y es comun utilizarla en conjunto con la etiqueta figcaption, que proporcionan un titulo o descripcion para el contenido visual -->
+         <figure>
+            <img src="./img/Pembroke-Welsh-Corgi-6.jpg" alt="Corgie" width="460" height="345">
+            <figcaption> Imagen representativa de mis intereses. El corgi es una de las razas de perro que más me gustan.
+            </figcaption>
+         </figure>
+    </section>
+    <section>
+        <h2>Enlaces</h2>
+        <p> Visita estos sitios recomendados para aprender desarrollo web</p>
+        <ul>
+            <!-- a es una etiqueta que generalmente viene acompañada del atributo href donde agregamos la dirección a la cual queremos redireccionar, otro atributo comunmente utilizado es el targer que da un control como se va a abrir el enlace  -->
+             <li>
+                <a href="https://developer.mozilla.org/es/docs/Learn/HTML/Introduction_to_HTML" target="_top">enlace 1</a>
+             </li>
+             <li>
+                <a href="https://developer.mozilla.org/es/docs/Learn/HTML/Introduction_to_HTML" target="_blank">Enlaces</a>
+             </li>
+        </ul>
+    </section>
+ </main>
+ <footer>
+    <p>&copy; 2024 Roxana Salcedo. Todos los derechos reservados.</p>
+ </footer>
+</body>
+
+</html>
